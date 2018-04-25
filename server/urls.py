@@ -19,6 +19,7 @@ from server import views
 
 
 urlpatterns = [
-    path('collection', views.data_recv,name='data_recv'),
+    path('collection', views.received_sys_info,name='data_recv'),
+    path('index', views.get_sys_data,name='sys_data_index'),
 
 ]

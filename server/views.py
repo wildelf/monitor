@@ -17,3 +17,6 @@ def received_sys_info(request):
         return HttpResponse("Post the system Monitor Data successfully!")
     else:
         return HttpResponse("Your push have errors, Please Check your data!")
+
+def get_sys_data(request):
+    return render(request,'index.html')
