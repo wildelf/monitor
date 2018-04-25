@@ -4,10 +4,16 @@ import  platform, socket, time, json, threading
 import psutil, schedule, requests
 import logging
 
-AGENT_VERSION = "0.23"
-token = 'HPcWR7l4NJNJ'
-server_ip = '127.0.0.1'
-server_port = '8080'
+# 发送数据间隔时间
+TIMES = 3
+# 机器编号
+MACHINE_ID = 'M-001'
+# 服务器ip
+SERVER_IP = '127.0.0.1'
+# 服务器端口
+SERVER_PORT = '8080'
+# 日志文件路径
+LOG_PATH = '../logs/run_logs.log'
 
 
 class InfoCollection():
@@ -17,7 +23,7 @@ class InfoCollection():
         logging.basicConfig(level=logging.INFO,
                             format='%(asctime)s %(levelname)s %(message)s',
                             datefmt='%Y-%m-%d %H:%M:%S',
-                            filename='../logs/run_logs.log',
+                            filename=LOG_PATH,
                             filemode='a+')
         return logging.basicConfig
 
@@ -115,6 +121,7 @@ class InfoCollection():
     # 数据封装成Json格式
     def get_data_info(self):
         data_info = dict()
+        data_info['machine_id'] = MACHINE_ID
         data_info['hostname'] = platform.node()
         data_info['cpu'] = self.get_cpu_info()
         data_info['mem'] = self.get_mem_info()
@@ -141,7 +148,7 @@ class InfoCollection():
         logging.info('Get the hardwave infos from host:')
         logging.info(self.get_data_info())
         logging.info('----------------------------------------------------------')
-        self.post_data("http://{0}:{1}/monitor/collection".format(server_ip,server_port), self.get_data_info())
+        self.post_data("http://{0}:{1}/monitor/collection".format(SERVER_IP,SERVER_PORT), self.get_data_info())
 
         return True
 
@@ -153,7 +160,7 @@ class InfoCollection():
     # 运行
     def run(self):
         self.log()
-        schedule.every(3).seconds.do(self.run_threaded, self.agg_info_post)
+        schedule.every(TIMES).seconds.do(self.run_threaded, self.agg_info_post)
         while True:
             schedule.run_pending()
             time.sleep(1)
