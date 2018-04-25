@@ -23,6 +23,7 @@ def received_sys_info(request):
 def get_sys_data(request):
     client = pymongo.MongoClient(MONGO_URL)
     db = client[MONGO_DB]
-    data = db['M-001'].find_one()
-    print(data['cpu']['percent'])
-    return render(request,'index.html')
+    cursor = db['M-001'].find().sort([("timestamp", -1)]).limit(1)
+    for item in cursor:
+        cpu_percent = item['cpu']['percent']
+    return render(request,'index.html',{'cpu_percent':cpu_percent})

@@ -14,30 +14,33 @@
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('main'));
 
-        var app = {};
+
 
         var date = [];
         var data = [];
         var now = 0;
 
         function addData(shift) {
+            $.ajax({
+            url:'/monitor/data',
+            type:'get',
+            dataType:'json',
+            success:function(json_data){
+                sys_data = JSON.parse(json_data)
+                }
+            })
             now += 1 ;
             date.push(now);
-            data.push(Math.random()*100);
+            data.push(sys_data);
 
             if (shift) {
                 date.shift();
                 data.shift();
             }
-
-
         }
-
         for (var i = 1; i < 100; i++) {
             addData();
         }
-
-
         option = {
             title: {
                 text: 'CPU'
