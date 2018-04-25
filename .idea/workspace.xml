@@ -2,8 +2,520 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5f5a6-8339-4245-9a68-22c947dae2b6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/server/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/bootstrap/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap-duallistbox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/loading.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/AdminLTE.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/AdminLTE.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-bootstrap-social.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-bootstrap-social.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-fullcalendar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-fullcalendar.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-without-plugins.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-without-plugins.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/_all-skins.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/_all-skins.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-black-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-black-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-black.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-black.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-blue-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-blue-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-blue.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-green-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-green-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-green.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-purple-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-purple-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-purple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-purple.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-red-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-red-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-red.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-yellow-light.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-yellow-light.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-yellow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/css/skins/skin-yellow.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/alipay.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/asset.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/avatar.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/avatar04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/avatar2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/avatar3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/avatar5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/boxed-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/boxed-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/american-express.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/cirrus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/mastercard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/mestro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/paypal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/paypal2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/credit/visa.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/default-50x50.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/demo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/intro/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/img/qq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/js/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/js/app.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/js/demo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/js/pages/dashboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/dist/js/pages/dashboard2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ionicons/css/ionicons.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ionicons/css/ionicons.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ionicons/fonts/ionicons.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ionicons/fonts/ionicons.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ionicons/fonts/ionicons.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/ionicons/fonts/ionicons.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/base.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.bootstrap-duallistbox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/mobile/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/mobile/need/layer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/skin/default/icon-ext.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/skin/default/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/skin/default/layer.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/skin/default/loading-0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/skin/default/loading-1.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/layer/skin/default/loading-2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/dataTables.bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/dataTables.bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/dataTables.bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/css/dataTables.autoFill.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/columns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/complete-callback.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/fill-both.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/fill-horizontal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/scrolling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/examples/step-callback.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/images/filler.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/AutoFill/js/dataTables.autoFill.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/License.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/css/dataTables.colReorder.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/alt_insert.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/col_filter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/colvis.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/fixedheader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/jqueryui.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/new_init.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/predefined.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/realtime.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/reset.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/scrolling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/server_side.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/examples/state_save.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/images/insert.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColReorder/js/dataTables.colReorder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/License.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/css/dataTables.colVis.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/css/dataTables.colVis.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/css/dataTables.colvis.jqueryui.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/button_order.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/exclude_columns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/group_columns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/jqueryui.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/mouseover.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/new_init.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/restore.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/text.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/title_callback.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/two_tables.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/js/dataTables.colVis.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/ColVis/js/dataTables.colVis.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/License.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/css/dataTables.fixedColumns.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/bootstrap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/col_filter.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/colvis.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/css_size.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/index_column.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/right_column.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/rowspan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/server-side-processing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/size_fixed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/size_fluid.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/examples/two_columns.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/css/dataTables.fixedHeader.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/examples/header_footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/examples/two_tables.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/examples/zIndexes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/css/dataTables.keyTable.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/examples/events.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/examples/html.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/examples/scrolling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/License.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/css/dataTables.responsive.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/child-rows/column-control.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/child-rows/custom-renderer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/child-rows/disable-child-rows.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/child-rows/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/child-rows/right-column.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/child-rows/whole-row-control.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/display-control/auto.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/display-control/classes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/display-control/complexHeader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/display-control/fixedHeader.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/display-control/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/display-control/init-classes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/initialisation/ajax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/initialisation/className.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/initialisation/default.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/initialisation/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/initialisation/new.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/initialisation/option.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/styling/bootstrap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/styling/compact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/styling/foundation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/styling/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/examples/styling/scrolling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/js/dataTables.responsive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/Readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/css/dataTables.scroller.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/api_scrolling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/data/2500.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/data/ssp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/large_js_source.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/server-side_processing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/examples/state_saving.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/images/loading-background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/js/dataTables.scroller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/ajax.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/alter_buttons.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/bootstrap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/button_text.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/collection.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/defaults.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/jqueryui.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/multi_instance.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/multiple_tables.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/new_init.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/pdf_message.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/plug-in.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/select_column.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/select_multi.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/select_os.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/select_single.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/simple.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/examples/swf_path.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/collection.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/collection_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/copy_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/csv.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/csv_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/pdf.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/pdf_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/print.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/print_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/psd/collection.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/psd/copy document.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/psd/file_types.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/psd/printer.psd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/xls.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/images/xls_hover.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/images/sort_asc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/images/sort_asc_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/images/sort_both.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/images/sort_desc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/images/sort_desc_disabled.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/jquery.dataTables.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/jquery.dataTables.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/jquery.dataTables.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/jquery.dataTables.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/datatables/jquery.dataTables_themeroller.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/_all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/aero.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/aero.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/aero@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/blue@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/flat.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/flat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/flat@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/green@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/grey.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/grey.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/grey@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/orange.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/orange.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/orange@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/pink.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/pink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/pink@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/purple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/purple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/purple@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/red@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/yellow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/flat/yellow@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/futurico/futurico.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/futurico/futurico.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/futurico/futurico@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/icheck.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/icheck.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/_all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/aero.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/grey.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/line.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/line.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/line@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/orange.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/pink.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/purple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/line/yellow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/_all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/aero.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/aero.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/aero@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/blue@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/green@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/grey.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/grey.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/grey@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/minimal.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/minimal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/minimal@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/orange.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/orange.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/orange@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/pink.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/pink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/pink@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/purple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/purple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/purple@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/red@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/yellow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/minimal/yellow@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/polaris/polaris.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/polaris/polaris.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/polaris/polaris@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/_all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/aero.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/aero.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/aero@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/blue.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/blue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/blue@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/green.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/green@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/grey.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/grey.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/grey@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/orange.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/orange.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/orange@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/pink.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/pink.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/pink@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/purple.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/purple.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/purple@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/red.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/red@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/square.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/square.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/square@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/yellow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/iCheck/square/yellow@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/jQuery/jquery-2.2.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/az.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/eu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/fa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/gl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/hi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/is.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/km.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/lv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/mk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ms.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/nb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/pt-BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/pt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/sr-Cyrl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/sr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/vi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/zh-CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/i18n/zh-TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/select2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/select2.full.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/select2.full.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/select2.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/plugins/select2/select2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/blank.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/control-sidebar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/footer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/head_script.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/link_css.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/main-header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/main-sidebar.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/get_data.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/host_info_0.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/host_info_1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/host_info_2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/host_info_3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/host_info_4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/host_info_5.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/manage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/monitor/monitor-header.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/navbar-custom-menu.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/winMonitor.iml" afterPath="$PROJECT_DIR$/.idea/winMonitor.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="$PROJECT_DIR$/server/models.py" afterPath="$PROJECT_DIR$/server/models.py" />
+      <change beforePath="$PROJECT_DIR$/server/urls.py" afterPath="$PROJECT_DIR$/server/urls.py" />
       <change beforePath="$PROJECT_DIR$/server/views.py" afterPath="$PROJECT_DIR$/server/views.py" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/static/js/echarts.min.js" afterPath="$PROJECT_DIR$/static/js/echarts.min.js" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,9 +525,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/winMonitor$text.coverage" NAME="text Coverage Results" MODIFIED="1524565656536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/monitor$info_collection.coverage" NAME="info_collection Coverage Results" MODIFIED="1524648133776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client/core" />
     <SUITE FILE_PATH="coverage/winMonitor$info_collection.coverage" NAME="info_collection Coverage Results" MODIFIED="1524584165070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client/core" />
+    <SUITE FILE_PATH="coverage/winMonitor$text.coverage" NAME="text Coverage Results" MODIFIED="1524565656536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -25,8 +537,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="288">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
@@ -34,11 +546,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+            <state relative-caret-position="193">
+              <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -46,43 +558,145 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="get_data.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/monitor/get_data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_host" pinned="false" current-in-tab="false">
+        <entry file="db://5a350fca-f1b2-4379-9726-03e44e377c6b/object#[schema/table][main/server_host]">
+          <provider selected="true" editor-type-id="1.DATA">
+            <state row-count="5" readonly="false">
+              <columns>
+                <column name="id" position="0" visible="true" />
+                <column name="machine_id" position="1" visible="true" />
+                <column name="hostname" position="2" visible="true" />
+              </columns>
+              <sorting />
+              <content-types />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="host_info_0.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/monitor/host_info_0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-790">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connection" pinned="false" current-in-tab="false">
+        <entry file="db://5a350fca-f1b2-4379-9726-03e44e377c6b/console#Connection">
+          <provider selected="true" editor-type-id="0.CONSOLE">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" current-schema="main" session-id="MAIN">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="238">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blank.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/blank.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-491">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="run_logs.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/logs/run_logs.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="171" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="171" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
+      <file leaf-file-name="control-sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/control-sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1113">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="echarts.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/echarts.min.js">
+      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="114">
+              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-sidebar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/main-sidebar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/monitor/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-282">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,21 +705,11 @@
       <file leaf-file-name="info_collection.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/core/info_collection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+            <state relative-caret-position="2888">
+              <caret line="154" column="10" lean-forward="false" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
               <folding>
                 <element signature="e#32#79#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/winMonitor/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -115,16 +719,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_logs.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/logs/run_logs.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,16 +744,23 @@
         <option value="$PROJECT_DIR$/client/logs.py" />
         <option value="$PROJECT_DIR$/text.py" />
         <option value="$PROJECT_DIR$/winMonitor/urls.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/server/urls.py" />
         <option value="$PROJECT_DIR$/static/js/echarts.min.js" />
         <option value="$PROJECT_DIR$/server/setting.py" />
         <option value="$PROJECT_DIR$/winMonitor/settings.py" />
         <option value="$PROJECT_DIR$/server/config.py" />
         <option value="$PROJECT_DIR$/client/core/info_collection.py" />
         <option value="$PROJECT_DIR$/client/logs/run_logs.log" />
-        <option value="$PROJECT_DIR$/server/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/server/models.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/footer.html" />
+        <option value="$PROJECT_DIR$/templates/monitor/index.html" />
+        <option value="$PROJECT_DIR$/templates/monitor/host_info_0.html" />
+        <option value="$PROJECT_DIR$/templates/main-sidebar.html" />
+        <option value="$PROJECT_DIR$/server/urls.py" />
+        <option value="$PROJECT_DIR$/templates/monitor/get_data.html" />
+        <option value="$PROJECT_DIR$/server/tests.py" />
+        <option value="$PROJECT_DIR$/server/views.py" />
       </list>
     </option>
   </component>
@@ -170,8 +771,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="442" />
-    <option name="y" value="220" />
+    <option name="x" value="-31" />
+    <option name="y" value="14" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -193,7 +794,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -227,13 +827,13 @@
             <path>
               <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="monitor" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
@@ -243,53 +843,39 @@
             <path>
               <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
               <item name="winMonitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (venv1) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (venv1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="venv1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (venv1) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\client\core" />
-      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\client\info_collection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\monitor\templates" />
+      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\monitor" />
       <recent name="F:\项目\monitor\static\js" />
       <recent name="F:\项目\monitor\server" />
       <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\static\js" />
-      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\static\echarts" />
-      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\client\core" />
+      <recent name="F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\client\info_collection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +890,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.info_collection">
+  <component name="RunManager" selected="Python.tests">
     <configuration name="info_collection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,6 +905,24 @@
       <module name="winMonitor" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/core/info_collection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="winMonitor" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -366,14 +970,15 @@
       <option name="customRunCommand" value="" />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Django server.winMonitor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.info_collection" />
-      <item index="2" class="java.lang.String" itemvalue="Python.text" />
+      <item index="0" class="java.lang.String" itemvalue="Python.info_collection" />
+      <item index="1" class="java.lang.String" itemvalue="Python.text" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tests" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.info_collection" />
-        <item index="1" class="java.lang.String" itemvalue="Python.text" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python.info_collection" />
+        <item index="2" class="java.lang.String" itemvalue="Python.text" />
       </list>
     </recent_temporary>
   </component>
@@ -394,28 +999,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="442" y="220" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-31" y="14" width="1382" height="744" extended-state="0" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19866072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4234694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4241908" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3339012" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32312927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -430,13 +1036,89 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/core/info_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+          <folding>
+            <element signature="e#32#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winMonitor/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/logs/run_logs.log" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/winMonitor/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#634#666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -514,9 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +1211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,21 +1221,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/winMonitor/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#634#666#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,27 +1238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#634#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/setting.py" />
     <entry file="file://$PROJECT_DIR$/winMonitor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="2394">
           <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
           <folding />
         </state>
@@ -605,29 +1255,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/logs/run_logs.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/core/info_collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="154" column="10" lean-forward="true" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
+        <state relative-caret-position="2888">
+          <caret line="154" column="10" lean-forward="false" selection-start-line="154" selection-start-column="10" selection-end-line="154" selection-end-column="10" />
           <folding>
             <element signature="e#32#79#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="db://[Connection] CONSOLE - Connection">
+      <provider selected="true" editor-type-id="0.CONSOLE">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" current-schema="main" session-id="MAIN">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/control-sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1113">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -639,22 +1336,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views.py">
+    <entry file="db://[Connection] TABLE - main.server_host">
+      <provider selected="true" editor-type-id="1.DATA">
+        <state row-count="5" readonly="false">
+          <columns>
+            <column name="id" position="0" visible="true" />
+            <column name="machine_id" position="1" visible="true" />
+            <column name="hostname" position="2" visible="true" />
+          </columns>
+          <sorting />
+          <content-types />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/monitor/host_info_0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" column="67" lean-forward="true" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        <state relative-caret-position="-790">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main-sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/monitor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#634#666#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/client/logs/run_logs.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="171" lean-forward="false" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="171" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/monitor/get_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
