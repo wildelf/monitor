@@ -1,19 +1,10 @@
 #date: 2018/4/24
 # coding=utf-8
+
 import  platform, socket, time, json, threading
 import psutil, schedule, requests
 import logging
-
-# 发送数据间隔时间
-TIMES = 3
-# 机器编号
-MACHINE_ID = 'M-001'
-# 服务器ip
-SERVER_IP = '127.0.0.1'
-# 服务器端口
-SERVER_PORT = '8080'
-# 日志文件路径
-LOG_PATH = '../logs/run_logs.log'
+from client.conf.setting import *
 
 
 class InfoCollection():
@@ -131,7 +122,6 @@ class InfoCollection():
 
     # 发送数据方法
     def post_data(self,url, data):
-        print(url)
         try:
             r = requests.post(url, data)
             if r.text:
@@ -148,7 +138,7 @@ class InfoCollection():
         logging.info('Get the hardwave infos from host:')
         logging.info(self.get_data_info())
         logging.info('----------------------------------------------------------')
-        self.post_data("http://{0}:{1}/monitor/collection".format(SERVER_IP,SERVER_PORT), self.get_data_info())
+        self.post_data("http://{0}:{1}/monitor/collection/".format(SERVER_IP,SERVER_PORT), self.get_data_info())
 
         return True
 
@@ -165,5 +155,3 @@ class InfoCollection():
             schedule.run_pending()
             time.sleep(1)
 
-data = InfoCollection()
-data.run()
