@@ -16,18 +16,12 @@ TIME_SECTOR = (
 
 
 # 返回首页
-def get_sys_data(request):
-    # client = pymongo.MongoClient(MONGO_URL)
-    # db = client[MONGO_DB]
-    # cursor = db['M-001'].find().sort([("timestamp", -1)]).limit(1)
-    # for item in cursor:
-    #     cpu_percent = item['cpu']['percent']
-
+def index(request):
     all_host = Host.objects.all()
     return render(request,'monitor/index.html',locals())
 
+# 机器系统信息
 def host_info(request,machine_id,timing):
-
 
     # 传递磁盘号给前端JS,用以迭代分区图表
     disk = GetSysData(machine_id, "disk", 3600, 1)
@@ -100,6 +94,7 @@ def get_disk(request, machine_id, timing, partition):
     data = {"data_time": data_time, "disk_name": disk_name, "disk_percent": disk_percent}
     return HttpResponse(json.dumps(data))
 
+# 从mongodb动态获取网络数据
 def get_net(request, machine_id, timing, net_id):
     data_time = []
     nic_in = []
@@ -122,12 +117,7 @@ def get_net(request, machine_id, timing, net_id):
     return HttpResponse(json.dumps(data))
 
 
-# test
 def run_db(request):
 
-    obj = models.Host.objects.filter(machine_id='M-0087', hostname='wilde')
-    if not obj:
-
-        print(obj)
-
-    return HttpResponse('OK')
+    models.Host.objects.filter(machine_id='M-001').delete()
+    return HttpResponse('ok')

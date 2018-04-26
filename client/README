@@ -1,6 +1,6 @@
 
 
-安装依赖：
-python 3
-psutil
-schedule
+运行依赖：
+1.python 3
+2.psutil
+3.schedule

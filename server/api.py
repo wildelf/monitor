@@ -34,11 +34,11 @@ def received_sys_info(request):
         received_json_data = json.loads(request.body)
         print(received_json_data)
         machine_id = received_json_data["machine_id"]
-        hostname = received_json_data['hostname']
-        obj = models.Host.objects.filter(machine_id=machine_id, hostname=hostname)
+        ip = received_json_data['ip']
+        obj = models.Host.objects.filter(machine_id=machine_id, ip=ip)
         if not obj:
             try:
-                models.Host.objects.create(machine_id=machine_id, hostname=hostname)
+                models.Host.objects.create(machine_id=machine_id, ip=ip)
             except Exception as e:
                 return HttpResponse(e)
         received_json_data['timestamp'] = int(time.time())

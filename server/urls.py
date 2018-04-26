@@ -21,7 +21,7 @@ from server import views,api
 urlpatterns = [
     url(r'^rundb/$', views.run_db),
     url(r'^collection/$', api.received_sys_info,name='data_recv'),
-    url(r'^index/$', views.get_sys_data,name='sys_data_index'),
+    url(r'^index/$', views.index,name='sys_data_index'),
     url(r'^system/(?P<machine_id>.+)/(?P<timing>\d+)/$', views.host_info, name='host_info'),
     url(r'^get/cpu/(?P<machine_id>.+)/(?P<timing>\d+)/$', views.get_cpu, name='get_cpu'),
     url(r'^get/mem/(?P<machine_id>.+)/(?P<timing>\d+)/$', views.get_mem, name='get_mem'),

@@ -113,6 +113,7 @@ class InfoCollection():
     def get_data_info(self):
         data_info = dict()
         data_info['machine_id'] = MACHINE_ID
+        data_info['ip'] = self.get_ip()
         data_info['hostname'] = platform.node()
         data_info['cpu'] = self.get_cpu_info()
         data_info['mem'] = self.get_mem_info()
