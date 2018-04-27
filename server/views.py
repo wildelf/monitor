@@ -75,6 +75,35 @@ def get_mem(request, machine_id, timing):
     data = {"data_time": data_time, "mem_percent": mem_percent}
     return HttpResponse(json.dumps(data))
 
+
+# 从mongodb动态获取进程内存数据
+def get_pro_mem(request, machine_id, timing):
+    data_time = []
+    pro_percent = []
+    pro_name = ''
+    range_time = TIME_SECTOR[int(timing)]
+    mem_data = GetSysData(machine_id, "p_mem", range_time)
+    for doc in mem_data.get_data():
+        unix_time = doc['timestamp']
+        times = time.localtime(unix_time)
+        dt = time.strftime("%m-%d %H:%M", times)
+        data_time.append(dt)
+        p_percent = doc["p_mem"][1]
+        pro_name = doc["p_mem"][0]
+        pro_percent.append(p_percent)
+    data = {"data_time": data_time, "pro_name":pro_name,"pro_percent": pro_percent}
+    return HttpResponse(json.dumps(data))
+
+
+
+
+
+
+
+
+
+
+
 # 从mongodb动态获取磁盘数据
 def get_disk(request, machine_id, timing, partition):
     data_time = []

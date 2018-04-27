@@ -108,6 +108,62 @@ $.get("/monitor/get/mem/{{ machine_id }}/"+timing).done(function (data) {
 }, 2000);
 </script>
 
+<script type="text/javascript">
+var pro_mymemory = echarts.init(document.getElementById('process_memory'));
+pro_mymemory.showLoading();
+setInterval(function () {
+$.get("/monitor/get/pro/mem/{{ machine_id }}/"+timing).done(function (data) {
+    var data = JSON.parse(data);
+    pro_mymemory.hideLoading();// 加载动画
+    pro_mymemory.setOption({
+        title: {
+            text: data.pro_name+'内存使用率'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        toolbox: {
+            feature : {
+                mark : {show: true},
+                dataView : {show: true, readOnly: false},
+                saveAsImage : {show: true}
+            }
+        },
+        legend: {
+            data:['ProcessMemory'],
+        },
+        xAxis: {
+            boundaryGap: false,
+            data: data.data_time
+        },
+        yAxis: [{
+                type : 'value',
+                axisLabel : {
+                    formatter : '{value} %'
+                },
+                max: 100
+        }],
+        series: [{
+            boundaryGap: [0, '0%'],
+            name: 'ProcessMemory',
+            smooth:true,
+            type: 'line',
+            itemStyle: {
+                normal: {
+                    color:'#009900', //自定义折点
+                    areaStyle: {
+                        color: '#009900' //自定义线条
+                    }
+                }
+            },
+            data: data.pro_percent
+        }
+        ]
+    });
+});
+}, 2000);
+</script>
+
 {% for p in partitions_len %}
 <script type="text/javascript">
 var disk{{ p }} = echarts.init(document.getElementById("disk{{ p }}"));

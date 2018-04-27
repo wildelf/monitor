@@ -51,6 +51,37 @@ class InfoCollection():
         mem_data['free'] = mem_info.free
         return mem_data
 
+    # 获取进程的pid
+    def get_process_pids(self,p_name):
+        pid_list = []
+        pids = psutil.pids()
+        processes = []
+        for pid in pids:
+            try:
+                p = psutil.Process(pid)
+                name = p.name()
+                processes.append([pid, name])
+            except:
+                continue
+
+        for p in processes:
+            if p[1] == p_name:
+                pid_list.append(p[0])
+
+        return pid_list
+
+    # 获取进程的内存信息
+    def get_process_mem_info(self):
+        pid_list = self.get_process_pids(PROCESS_NAME)
+        process_data = []
+        percent = 0
+        for pid in pid_list:
+            p = psutil.Process(pid)
+            percent += p.memory_percent()
+        process_data.append(PROCESS_NAME)
+        process_data.append(percent)
+        return process_data
+
     # 获取磁盘
     def get_disk_info(self):
         disk_data = {'id': [], 'total': [], 'used': [], 'free': [], 'percent': []}
@@ -117,12 +148,14 @@ class InfoCollection():
         data_info['hostname'] = platform.node()
         data_info['cpu'] = self.get_cpu_info()
         data_info['mem'] = self.get_mem_info()
+        data_info['p_mem'] = self.get_process_mem_info()
         data_info['disk'] = self.get_disk_info()
         data_info['net'] = self.get_net_info()
         return json.dumps(data_info)
 
     # 发送数据方法
     def post_data(self,url, data):
+        print(url)
         try:
             r = requests.post(url, data)
             if r.text:

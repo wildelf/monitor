@@ -468,7 +468,7 @@ model</ColNames>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="104" parent="16" name="hostname">
+    <column id="104" parent="16" name="ip">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
@@ -479,48 +479,38 @@ model</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <index id="106" parent="16" name="sqlite_autoindex_server_host_2">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>hostname</ColNames>
-      <ColumnCollations></ColumnCollations>
-      <Unique>1</Unique>
-    </index>
-    <key id="107" parent="16">
+    <key id="106" parent="16">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="108" parent="16">
+    <key id="107" parent="16">
       <ColNames>machine_id</ColNames>
       <UnderlyingIndexName>sqlite_autoindex_server_host_1</UnderlyingIndexName>
     </key>
-    <key id="109" parent="16">
-      <ColNames>hostname</ColNames>
-      <UnderlyingIndexName>sqlite_autoindex_server_host_2</UnderlyingIndexName>
-    </key>
-    <column id="110" parent="17" name="type">
+    <column id="108" parent="17" name="type">
       <Position>1</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="111" parent="17" name="name">
+    <column id="109" parent="17" name="name">
       <Position>2</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="112" parent="17" name="tbl_name">
+    <column id="110" parent="17" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="113" parent="17" name="rootpage">
+    <column id="111" parent="17" name="rootpage">
       <Position>4</Position>
       <DataType>integer|0</DataType>
     </column>
-    <column id="114" parent="17" name="sql">
+    <column id="112" parent="17" name="sql">
       <Position>5</Position>
       <DataType>text|0</DataType>
     </column>
-    <column id="115" parent="18" name="name">
+    <column id="113" parent="18" name="name">
       <Position>1</Position>
     </column>
-    <column id="116" parent="18" name="seq">
+    <column id="114" parent="18" name="seq">
       <Position>2</Position>
     </column>
   </database-model>
