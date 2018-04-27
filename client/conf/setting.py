@@ -11,4 +11,4 @@ SERVER_PORT = '8080'
 # 日志文件路径
 LOG_PATH = '../logs/run_logs.log'
 # 进程名
-PROCESS_NAME = 'pycharm64.exe'
+PROCESS_NAME = 'pycharm.exe'

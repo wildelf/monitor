@@ -74,7 +74,7 @@ $.get("/monitor/get/mem/{{ machine_id }}/"+timing).done(function (data) {
             }
         },
         legend: {
-            data:['Memory'],
+            data:['Memory',data.pro_name],
         },
         xAxis: {
             boundaryGap: false,
@@ -95,64 +95,23 @@ $.get("/monitor/get/mem/{{ machine_id }}/"+timing).done(function (data) {
             itemStyle: {
                 normal: {
                     color:'#009900', //自定义折点
-                    areaStyle: {
+                    lineStyle: {
                         color: '#009900' //自定义线条
                     }
                 }
             },
             data: data.mem_percent
-        }
-        ]
-    });
-});
-}, 2000);
-</script>
-
-<script type="text/javascript">
-var pro_mymemory = echarts.init(document.getElementById('process_memory'));
-pro_mymemory.showLoading();
-setInterval(function () {
-$.get("/monitor/get/pro/mem/{{ machine_id }}/"+timing).done(function (data) {
-    var data = JSON.parse(data);
-    pro_mymemory.hideLoading();// 加载动画
-    pro_mymemory.setOption({
-        title: {
-            text: data.pro_name+'内存使用率'
         },
-        tooltip: {
-            trigger: 'axis'
-        },
-        toolbox: {
-            feature : {
-                mark : {show: true},
-                dataView : {show: true, readOnly: false},
-                saveAsImage : {show: true}
-            }
-        },
-        legend: {
-            data:['ProcessMemory'],
-        },
-        xAxis: {
-            boundaryGap: false,
-            data: data.data_time
-        },
-        yAxis: [{
-                type : 'value',
-                axisLabel : {
-                    formatter : '{value} %'
-                },
-                max: 100
-        }],
-        series: [{
+        {
             boundaryGap: [0, '0%'],
-            name: 'ProcessMemory',
+            name: data.pro_name,
             smooth:true,
             type: 'line',
             itemStyle: {
                 normal: {
-                    color:'#009900', //自定义折点
-                    areaStyle: {
-                        color: '#009900' //自定义线条
+                    color:'#0099CC', //自定义折点
+                    lineStyle: {
+                        color: '#0099CC' //自定义线条
                     }
                 }
             },
@@ -164,17 +123,19 @@ $.get("/monitor/get/pro/mem/{{ machine_id }}/"+timing).done(function (data) {
 }, 2000);
 </script>
 
-{% for p in partitions_len %}
+
+
+
 <script type="text/javascript">
-var disk{{ p }} = echarts.init(document.getElementById("disk{{ p }}"));
-disk{{ p }}.showLoading();
+var disk= echarts.init(document.getElementById("disk"));
+disk.showLoading();
 setInterval(function () {
-$.get("/monitor/get/disk/{{ machine_id }}/"+timing+"/"+{{ p }}).done(function (data) {
+$.get("/monitor/get/disk/{{ machine_id }}/"+timing+"/").done(function (data) {
     var data = JSON.parse(data);
-    disk{{ p }}.hideLoading();// 加载动画
-    disk{{ p }}.setOption({
+    disk.hideLoading();// 加载动画
+    disk.setOption({
         title: {
-            text: data.disk_name
+            text: "磁盘内存"
         },
         toolbox: {
             feature : {
@@ -196,13 +157,14 @@ $.get("/monitor/get/disk/{{ machine_id }}/"+timing+"/"+{{ p }}).done(function (d
         yAxis: [{
                 type : 'value',
                 axisLabel : {
-                    formatter : '{value} %'
+                    formatter : '{value} G'
                 },
-                max: 100
+                max: data.disk_total
         }],
-        series: [{
+        series: [
+            {
             boundaryGap: false,
-            name: 'Disk',
+            name:'Disk',
             smooth:true,
             type: 'line',
             itemStyle: {
@@ -213,26 +175,27 @@ $.get("/monitor/get/disk/{{ machine_id }}/"+timing+"/"+{{ p }}).done(function (d
                     }
                 }
             },
-            data: data.disk_percent
-        }
+            data: data.disk_used
+            }
+
         ]
     });
 });
 }, 2000);
 </script>
-{% endfor %}
 
-{% for nic in nic_len %}
+
+
 <script type="text/javascript">
-var net{{ nic }} = echarts.init(document.getElementById("net{{ nic }}"));
-net{{ nic }}.showLoading();
+var net = echarts.init(document.getElementById("net"));
+net.showLoading();
 setInterval(function () {
-$.get("/monitor/get/net/{{ machine_id }}/"+timing+"/"+{{ nic }}).done(function (data) {
+$.get("/monitor/get/net/{{ machine_id }}/"+timing+"/").done(function (data) {
     var data = JSON.parse(data);
-    net{{ nic }}.hideLoading();// 加载动画
-    net{{ nic }}.setOption({
+    net.hideLoading();// 加载动画
+    net.setOption({
         title: {
-            text: data.nic_name
+            text: '网络'
         },
         toolbox: {
             feature : {
@@ -330,6 +293,6 @@ $.get("/monitor/get/net/{{ machine_id }}/"+timing+"/"+{{ nic }}).done(function (
 });
 }, 2000);
 </script>
-{% endfor %}
+
 
 

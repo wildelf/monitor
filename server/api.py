@@ -32,7 +32,6 @@ class GetSysData(object):
 def received_sys_info(request):
     if request.method == 'POST':
         received_json_data = json.loads(request.body)
-        print(received_json_data)
         machine_id = received_json_data["machine_id"]
         ip = received_json_data['ip']
         obj = models.Host.objects.filter(machine_id=machine_id, ip=ip)

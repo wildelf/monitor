@@ -49,6 +49,7 @@ class InfoCollection():
         mem_data['percent'] = mem_info.percent
         mem_data['used'] = mem_info.used
         mem_data['free'] = mem_info.free
+        mem_data['p_mem'] = self.get_process_mem_info()
         return mem_data
 
     # 获取进程的pid
@@ -148,7 +149,6 @@ class InfoCollection():
         data_info['hostname'] = platform.node()
         data_info['cpu'] = self.get_cpu_info()
         data_info['mem'] = self.get_mem_info()
-        data_info['p_mem'] = self.get_process_mem_info()
         data_info['disk'] = self.get_disk_info()
         data_info['net'] = self.get_net_info()
         return json.dumps(data_info)

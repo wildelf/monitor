@@ -63,6 +63,8 @@ def get_cpu(request, machine_id, timing):
 def get_mem(request, machine_id, timing):
     data_time = []
     mem_percent = []
+    pro_percent = []
+    pro_name = ''
     range_time = TIME_SECTOR[int(timing)]
     mem_data = GetSysData(machine_id, "mem", range_time)
     for doc in mem_data.get_data():
@@ -72,43 +74,38 @@ def get_mem(request, machine_id, timing):
         data_time.append(dt)
         m_percent = doc['mem']['percent']
         mem_percent.append(m_percent)
-    data = {"data_time": data_time, "mem_percent": mem_percent}
-    return HttpResponse(json.dumps(data))
 
-
-# 从mongodb动态获取进程内存数据
-def get_pro_mem(request, machine_id, timing):
-    data_time = []
-    pro_percent = []
-    pro_name = ''
-    range_time = TIME_SECTOR[int(timing)]
-    mem_data = GetSysData(machine_id, "p_mem", range_time)
-    for doc in mem_data.get_data():
-        unix_time = doc['timestamp']
-        times = time.localtime(unix_time)
-        dt = time.strftime("%m-%d %H:%M", times)
-        data_time.append(dt)
-        p_percent = doc["p_mem"][1]
-        pro_name = doc["p_mem"][0]
+        p_percent = doc['mem']["p_mem"][1]
+        pro_name = doc['mem']["p_mem"][0]
         pro_percent.append(p_percent)
-    data = {"data_time": data_time, "pro_name":pro_name,"pro_percent": pro_percent}
+    data = {"data_time": data_time, "mem_percent": mem_percent,"pro_percent":pro_percent,'pro_name':pro_name}
     return HttpResponse(json.dumps(data))
 
 
-
-
-
-
-
-
-
+# # 从mongodb动态获取进程内存数据
+# def get_pro_mem(request, machine_id, timing):
+#     data_time = []
+#     pro_percent = []
+#     pro_name = ''
+#     range_time = TIME_SECTOR[int(timing)]
+#     mem_data = GetSysData(machine_id, "p_mem", range_time)
+#     for doc in mem_data.get_data():
+#         unix_time = doc['timestamp']
+#         times = time.localtime(unix_time)
+#         dt = time.strftime("%m-%d %H:%M", times)
+#         data_time.append(dt)
+#         p_percent = doc["p_mem"][1]
+#         pro_name = doc["p_mem"][0]
+#         pro_percent.append(p_percent)
+#     data = {"data_time": data_time, "pro_name":pro_name,"pro_percent": pro_percent}
+#     return HttpResponse(json.dumps(data))
 
 
 # 从mongodb动态获取磁盘数据
-def get_disk(request, machine_id, timing, partition):
+def get_disk(request, machine_id, timing):
     data_time = []
-    disk_percent = []
-    disk_name = ""
+    disk_total = 0
+    disk_used = []
     range_time = TIME_SECTOR[int(timing)]
     disk = GetSysData(machine_id, "disk", range_time)
     for doc in disk.get_data():
@@ -116,15 +113,22 @@ def get_disk(request, machine_id, timing, partition):
         times = time.localtime(unix_time)
         dt = time.strftime("%m-%d %H:%M", times)
         data_time.append(dt)
-        d_percent = doc['disk']['percent'][int(partition)]
-        disk_percent.append(d_percent)
-        if not disk_name:
-            disk_name = doc['disk']['id'][int(partition)]+'盘'
-    data = {"data_time": data_time, "disk_name": disk_name, "disk_percent": disk_percent}
+        # disk = {"id": ["C", "D", "E", "F"], "total": [60.0, 136.01, 135.01, 134.73], "used": [45.9, 34.86, 18.12, 91.41],
+        #  "free": [14.1, 101.15, 116.9, 43.32], "percent": [76.5, 25.6, 13.4, 67.8]}
+        _total = 0
+        _used = 0
+        for per_total in doc['disk']['total']:
+            _total += per_total
+        for per_used in doc['disk']['used']:
+            _used += per_used
+        disk_total = int(_total)
+        disk_used.append(_used)
+
+    data = {"data_time": data_time, "disk_total":disk_total,"disk_used":disk_used}
     return HttpResponse(json.dumps(data))
 
 # 从mongodb动态获取网络数据
-def get_net(request, machine_id, timing, net_id):
+def get_net(request, machine_id, timing):
     data_time = []
     nic_in = []
     nic_out = []
@@ -136,12 +140,14 @@ def get_net(request, machine_id, timing, net_id):
         times = time.localtime(unix_time)
         dt = time.strftime("%m-%d %H:%M", times)
         data_time.append(dt)
-        in_ = doc['net'][int(net_id)]['traffic_in']
-        out_ = doc['net'][int(net_id)]['traffic_out']
+        in_ = 0
+        out_ = 0
+        for i in range(len(doc['net'])):
+            in_ += doc['net'][i]['traffic_in']
+            out_ += doc['net'][i]['traffic_out']
         nic_in.append(in_)
         nic_out.append(out_)
-        if not nic_name:
-            nic_name = doc['net'][int(net_id)]['nic_name']
+
     data = {"data_time": data_time, "nic_name": nic_name, "traffic_in": nic_in, "traffic_out": nic_out}
     return HttpResponse(json.dumps(data))
 
