@@ -33,6 +33,7 @@ def received_sys_info(request):
     if request.method == 'POST':
         received_json_data = json.loads(request.body)
         machine_id = received_json_data["machine_id"]
+        pro_mem = received_json_data['mem']['p_mem']
         ip = received_json_data['ip']
         obj = models.Host.objects.filter(machine_id=machine_id, ip=ip)
         if not obj:
@@ -40,6 +41,7 @@ def received_sys_info(request):
                 models.Host.objects.create(machine_id=machine_id, ip=ip)
             except Exception as e:
                 return HttpResponse(e)
+        insert_mysql(pro_mem,machine_id)#判断是否超过峰值
         received_json_data['timestamp'] = int(time.time())
         client = pymongo.MongoClient(MONGO_URL)
         db = client[MONGO_DB]
@@ -48,4 +50,17 @@ def received_sys_info(request):
         return HttpResponse("Post the system Monitor Data successfully!")
     else:
         return HttpResponse("Your push have errors, Please Check your data!")
+
+# 超过设定峰值的插入数据库
+def insert_mysql(pro_mem,machine_id):
+
+    obj = models.Host.objects.filter(machine_id=machine_id)[0]
+    host_id = obj.id
+    name = pro_mem[0]
+    percent = round(pro_mem[1],2)
+    if percent > PROCESS_WARNING:
+        try:
+            models.ProcessData.objects.create(name=name,percent=percent,host_id=host_id)
+        except Exception as e:
+            return HttpResponse(e)
 

@@ -38,7 +38,9 @@ import psutil
 # print(data)
 
 
-p = psutil.Process(1372)
+# p = psutil.Process(1372)
+#
+# percent = p.memory_percent()
+# print(percent)
 
-percent = p.memory_percent()
-print(percent)
+

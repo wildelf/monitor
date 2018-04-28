@@ -154,5 +154,5 @@ def get_net(request, machine_id, timing):
 
 def run_db(request):
 
-    models.Host.objects.filter(machine_id='M-001').delete()
+    models.ProcessData.objects.create(name='wilde',percent=67,host_id=1)
     return HttpResponse('ok')
