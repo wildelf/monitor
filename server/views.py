@@ -104,8 +104,8 @@ def get_mem(request, machine_id, timing):
 # 从mongodb动态获取磁盘数据
 def get_disk(request, machine_id, timing):
     data_time = []
-    disk_total = 0
-    disk_used = []
+    disk_name_list = []
+    disk_percent_list = []
     range_time = TIME_SECTOR[int(timing)]
     disk = GetSysData(machine_id, "disk", range_time)
     for doc in disk.get_data():
@@ -113,18 +113,16 @@ def get_disk(request, machine_id, timing):
         times = time.localtime(unix_time)
         dt = time.strftime("%m-%d %H:%M", times)
         data_time.append(dt)
-        # disk = {"id": ["C", "D", "E", "F"], "total": [60.0, 136.01, 135.01, 134.73], "used": [45.9, 34.86, 18.12, 91.41],
-        #  "free": [14.1, 101.15, 116.9, 43.32], "percent": [76.5, 25.6, 13.4, 67.8]}
-        _total = 0
-        _used = 0
-        for per_total in doc['disk']['total']:
-            _total += per_total
-        for per_used in doc['disk']['used']:
-            _used += per_used
-        disk_total = int(_total)
-        disk_used.append(_used)
 
-    data = {"data_time": data_time, "disk_total":disk_total,"disk_used":disk_used}
+        disk_name_list = doc['disk']['id']
+        if not disk_percent_list:
+            for i in range(len(doc['disk']['percent'])):
+                disk_percent_list.append([])
+        for i in range(len(doc['disk']['percent'])):
+            disk_percent_list[i].append(doc['disk']['percent'][i])
+
+
+    data = {"data_time": data_time, "disk_name_list":disk_name_list,"disk_percent_list":disk_percent_list}
     return HttpResponse(json.dumps(data))
 
 # 从mongodb动态获取网络数据

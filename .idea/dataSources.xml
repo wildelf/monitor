@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="75331791-ffe4-47ff-bd1b-a5bb26e8c73a">
-      <driver-ref>da33648b-c94a-48bc-be3f-ecda3fd0a49c</driver-ref>
+    <data-source source="LOCAL" name="db" uuid="6abb8a2d-f66b-4ed4-b503-c9d897e125e6">
+      <driver-ref>632830fb-3d49-4647-be34-f77713b4db61</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>SQLite</remarks>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:F:\python\pycharm p\PyCharm 2017.3.3\winMonitor\monitor\db.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:F:\项目\monitor\db.sqlite3</jdbc-url>
       <driver-properties>
         <property name="enable_load_extension" value="true" />
       </driver-properties>
@@ -17,6 +17,9 @@
         </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.16.1/xerial-sqlite-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.16.1/xerial-sqlite-license_2.txt</url>
         </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>

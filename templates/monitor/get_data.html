@@ -148,7 +148,7 @@ $.get("/monitor/get/disk/{{ machine_id }}/"+timing+"/").done(function (data) {
             trigger: 'axis'
         },
         legend: {
-            data:['Disk']
+            data:data.disk_name_list
         },
         xAxis: {
             boundaryGap: false,
@@ -157,26 +157,101 @@ $.get("/monitor/get/disk/{{ machine_id }}/"+timing+"/").done(function (data) {
         yAxis: [{
                 type : 'value',
                 axisLabel : {
-                    formatter : '{value} G'
+                    formatter : '{value} %'
                 },
-                max: data.disk_total
+                max: 100
         }],
         series: [
             {
             boundaryGap: false,
-            name:'Disk',
+            name:data.disk_name_list[0],
+            smooth:true,
+            type: 'line',
+            itemStyle: {
+                normal: {
+                    color:'#ff0000', //自定义折点
+                    lineStyle: {
+                        color: '#ff0000' //自定义线条
+                    }
+                }
+            },
+            data: data.disk_percent_list[0]
+            },
+            {
+            boundaryGap: false,
+            name:data.disk_name_list[1],
+            smooth:true,
+            type: 'line',
+            itemStyle: {
+                normal: {
+                    color:'#009900', //自定义折点
+                    lineStyle: {
+                        color: '#009900' //自定义线条
+                    }
+                }
+            },
+            data: data.disk_percent_list[1]
+            },
+            {
+            boundaryGap: false,
+            name:data.disk_name_list[2],
+            smooth:true,
+            type: 'line',
+            itemStyle: {
+                normal: {
+                    color:'#00008b', //自定义折点
+                    lineStyle: {
+                        color: '#00008b' //自定义线条
+                    }
+                }
+            },
+            data: data.disk_percent_list[2]
+            },
+            {
+            boundaryGap: false,
+            name:data.disk_name_list[3],
+            smooth:true,
+            type: 'line',
+            itemStyle: {
+                normal: {
+                    color:'#ff1493', //自定义折点
+                    lineStyle: {
+                        color: '#ff1493' //自定义线条
+                    }
+                }
+            },
+            data: data.disk_percent_list[3]
+            },
+            {
+            boundaryGap: false,
+            name:data.disk_name_list[4],
+            smooth:true,
+            type: 'line',
+            itemStyle: {
+                normal: {
+                    color:'#5d59a6', //自定义折点
+                    lineStyle: {
+                        color: '#5d59a6' //自定义线条
+                    }
+                }
+            },
+            data: data.disk_percent_list[4]
+            },
+            {
+            boundaryGap: false,
+            name:data.disk_name_list[5],
             smooth:true,
             type: 'line',
             itemStyle: {
                 normal: {
                     color:'#0099CC', //自定义折点
-                    areaStyle: {
+                    lineStyle: {
                         color: '#0099CC' //自定义线条
                     }
                 }
             },
-            data: data.disk_used
-            }
+            data: data.disk_percent_list[5]
+            },
 
         ]
     });

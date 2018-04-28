@@ -44,3 +44,7 @@ import psutil
 # print(percent)
 
 
+a = []
+
+
+print(a[1])
