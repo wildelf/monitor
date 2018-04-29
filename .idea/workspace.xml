@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9e5f5a6-8339-4245-9a68-22c947dae2b6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/logs/run_logs.log" afterPath="$PROJECT_DIR$/client/logs/run_logs.log" />
-      <change beforePath="$PROJECT_DIR$/server/api.py" afterPath="$PROJECT_DIR$/server/api.py" />
-      <change beforePath="$PROJECT_DIR$/server/config.py" afterPath="$PROJECT_DIR$/server/config.py" />
+      <change beforePath="$PROJECT_DIR$/server/apps.py" afterPath="$PROJECT_DIR$/server/apps.py" />
+      <change beforePath="$PROJECT_DIR$/winMonitor/settings.py" afterPath="$PROJECT_DIR$/winMonitor/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,26 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_data.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/monitor/get_data.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5020">
-              <caret line="251" column="14" lean-forward="false" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-106">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="control-sidebar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/control-sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,11 +100,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-410">
+            <state relative-caret-position="10">
               <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/winMonitor/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -184,7 +183,6 @@
         <option value="$PROJECT_DIR$/templates/main-sidebar.html" />
         <option value="$PROJECT_DIR$/client/config/setting.py" />
         <option value="$PROJECT_DIR$/templates/monitor/index.html" />
-        <option value="$PROJECT_DIR$/winMonitor/settings.py" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/client/README" />
         <option value="$PROJECT_DIR$/client/logs/run_logs.log" />
@@ -207,6 +205,8 @@
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/server/config.py" />
         <option value="$PROJECT_DIR$/server/api.py" />
+        <option value="$PROJECT_DIR$/server/apps.py" />
+        <option value="$PROJECT_DIR$/winMonitor/settings.py" />
       </list>
     </option>
   </component>
@@ -248,6 +248,16 @@
             <path>
               <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
               <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="winMonitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -599,13 +609,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="db://[Connection] CONSOLE - Connection" />
     <entry file="db://[Connection] TABLE - main.server_host" />
     <entry file="das://table:/8b8ae23b/b5a5c0bb-cb53-4b4f-b40d-05b361992bbe/main.server_host" />
@@ -655,14 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/winMonitor/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="86" column="47" lean-forward="true" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,8 +907,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
+        <state relative-caret-position="10">
           <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/winMonitor/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding />
         </state>
       </provider>
