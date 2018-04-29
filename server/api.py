@@ -18,7 +18,7 @@ class GetSysData(object):
         self.no = no
 
     def get_data(self):
-        client = pymongo.MongoClient(MONGO_URL)
+        client = pymongo.MongoClient(MONGO_URL,MONGO_PORT)
         db = client[MONGO_DB]
         collection = db[self.machine_id]
         now_time = int(time.time())
@@ -43,7 +43,7 @@ def received_sys_info(request):
                 return HttpResponse(e)
         insert_mysql(pro_mem,machine_id)#判断是否超过峰值
         received_json_data['timestamp'] = int(time.time())
-        client = pymongo.MongoClient(MONGO_URL)
+        client = pymongo.MongoClient(MONGO_URL,MONGO_PORT)
         db = client[MONGO_DB]
         collection = db[machine_id]
         collection.insert_one(received_json_data)
