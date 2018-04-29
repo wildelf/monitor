@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="db" uuid="6abb8a2d-f66b-4ed4-b503-c9d897e125e6">
-      <driver-ref>632830fb-3d49-4647-be34-f77713b4db61</driver-ref>
+    <data-source source="LOCAL" name="db" uuid="ecdee5bd-f35c-4455-9b6a-785817d817fc">
+      <driver-ref>da33648b-c94a-48bc-be3f-ecda3fd0a49c</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>SQLite</remarks>
@@ -17,9 +17,6 @@
         </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.16.1/xerial-sqlite-license.txt</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.16.1/xerial-sqlite-license_2.txt</url>
         </library>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
