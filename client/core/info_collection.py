@@ -4,7 +4,7 @@
 import  platform, socket, time, json, threading
 import psutil, schedule, requests
 import logging
-from client.conf.setting import *
+from conf.setting import *
 
 
 class InfoCollection():
@@ -163,6 +163,7 @@ class InfoCollection():
             else:
                 logging.info("Server return http status code: {0}".format(r.status_code))
         except Exception as msg:
+            logging.info("Server return http status code: {0}".format(r.status_code))
             logging.info(msg)
         return True
 

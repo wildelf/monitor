@@ -31,7 +31,7 @@ class GetSysData(object):
 @csrf_exempt
 def received_sys_info(request):
     if request.method == 'POST':
-        received_json_data = json.loads(request.body)
+        received_json_data = json.loads(request.body.decode('utf-8'))
         machine_id = received_json_data["machine_id"]
         pro_mem = received_json_data['mem']['p_mem']
         ip = received_json_data['ip']
