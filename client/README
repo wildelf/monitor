@@ -11,7 +11,7 @@
 安装第三方插件：
 pip install psutil
 pip install schedule
-
+pip install requests
 -------------------------------------------
 
 配置文件：client/conf/setting.py
