@@ -14,8 +14,9 @@ pip install schedule
 pip install requests
 -------------------------------------------
 
-配置文件：client/conf/setting.py
+配置文件路径：client/conf/setting.py
 配置IP,端口等
+注:设备编号必须唯一
 
 -------------------------------------------
 

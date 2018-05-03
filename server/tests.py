@@ -44,3 +44,8 @@ import psutil
 # print(percent)
 
 
+import time
+
+times = time.localtime(int(time.time()))
+dt = time.strftime("%m-%d %H:%M", times)
+print(dt)

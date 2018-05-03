@@ -35,10 +35,10 @@ def received_sys_info(request):
         machine_id = received_json_data["machine_id"]
         pro_mem = received_json_data['mem']['p_mem']
         ip = received_json_data['ip']
-        obj = models.Host.objects.filter(machine_id=machine_id, ip=ip)
+        obj = models.Host.objects.filter(machine_id=machine_id)
         if not obj:
             try:
-                models.Host.objects.create(machine_id=machine_id, ip=ip)
+                models.Host.objects.create(machine_id=machine_id)
             except Exception as e:
                 return HttpResponse(e)
         insert_mysql(pro_mem,machine_id)#判断是否超过峰值

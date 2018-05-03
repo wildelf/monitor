@@ -7,24 +7,22 @@
 
 ---------------------------------------------------------------------------
 
-下载服务器：
-git clone https://github.com/wildelf/monitor.git
-
----------------------------------------------------------------------------
-
-设置ALLOWED_HOSTS：
+添加服务器IP到ALLOWED_HOSTS：
 server/setting.py/ALLOWED_HOSTS
 
 ---------------------------------------------------------------------------
 
 数据库：MongoDB
+安装第三方插件：pip install pymongo
 配置文件路径：server/config.py
 
 ---------------------------------------------------------------------------
 
 数据库：MySql
 配置文件路径：winMonitor/setting.py
-同步数据库：python manage.py migrate
+同步数据库：
+python manage.py makemigrations 
+python manage.py migrate
 
 ----------------------------------------------------------------------------
 
